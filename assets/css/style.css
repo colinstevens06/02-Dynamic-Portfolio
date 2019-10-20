@@ -1,14 +1,32 @@
-.nav {
-   margin-left: auto;
+/* Overal Document Styling */
+
+html, body {
+   height: 100%;
+   margin: 0;
 }
 
 .container {
+   max-width: 960px;
+   min-height: 100%;
+   margin-bottom: -50px; /* negative is same measurement as footer height */
+}
 
+.container::after {
+   content: "";
+   display: block;
+}
+
+/* Navigation Styling */
+
+.nav {
+   margin-left: auto;
 }
 
 .navbar-brand {
    margin-right: auto;
 }
+
+/* Image Styling */
 
 .headshot {
    width: 200px;
@@ -18,6 +36,19 @@
    padding: 2px;
 }
 
+/* Portfolio Styles */
+
 .card-title {
    color: white;
 }
+
+/* Footer Styles */
+
+footer {
+   border: 1px solid #222222;
+   padding: 3em;
+}
+
+   footer, .container::after {
+      height: 50px;
+   }
