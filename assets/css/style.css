@@ -16,6 +16,10 @@ body {
    padding: 14px 16px;
 }
 
+.container-below {
+   padding-bottom: 0;
+}
+
 .container-border {
    border: 1px solid #dddddd;
 }
@@ -32,8 +36,8 @@ body {
 }
 
 .navbar {
-   padding-top: 10px;
-   padding-bottom: 0px;
+   padding-top: 0;
+   padding-bottom: 0;
 }
 
 .container-fluid {
