@@ -20,6 +20,10 @@ body {
    padding-bottom: 0;
 }
 
+.container-portfolio {
+   margin-bottom: 75px;
+}
+
 .container-border {
    border: 1px solid #dddddd;
 }
@@ -105,8 +109,28 @@ h1, h2, h3, h4 {
 
 /* Portfolio Styles */
 
+.card {
+   margin-bottom: 25px;
+}
+
+.card:hover {
+   border: 2px solid #4aaaa5;
+   transition: .5s;
+}
+
 .card-title {
-   color: white;
+   position: absolute;
+   bottom: 10px;
+   background: #4aaaa5;
+   text-align: center;
+   padding: 15px 0;
+   color: #ffffff;
+   width: 100%;
+   font-size: 1.5em;
+}
+
+.card-img-overlay {
+   padding: 0;
 }
 
 /* Footer Styles */
