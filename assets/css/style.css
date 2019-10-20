@@ -16,20 +16,25 @@ body {
    padding: 14px 16px;
 }
 
-.container-below {
-   padding-bottom: 0;
-}
+   .container-below {
+      padding-bottom: 0;
+   }
 
-.container-portfolio {
-   margin-bottom: 75px;
-}
+   .container-portfolio {
+      margin-bottom: 75px;
+   }
 
-.container-border {
-   border: 1px solid #dddddd;
-}
+   .container-border {
+      border: 1px solid #dddddd;
+   }
 
-.container-fluid {
-   background: white;
+   .container-fluid {
+      background: white;
+   }
+
+hr {
+   border: 1px solid rgba(0,0,0,.1);
+   border-style: inset;
 }
 
 
@@ -131,6 +136,12 @@ h1, h2, h3, h4 {
 
 .card-img-overlay {
    padding: 0;
+}
+
+/* Form Styles */
+
+input {
+   margin-bottom: 15px;
 }
 
 /* Footer Styles */
