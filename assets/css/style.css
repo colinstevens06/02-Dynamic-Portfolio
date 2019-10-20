@@ -11,7 +11,6 @@ body {
 }
 
 .container {
-   max-width: 960px;
    background: white;
    padding: 14px 16px;
 }
@@ -163,3 +162,31 @@ footer {
 .footer {
    text-align: center;
 }
+
+/* Spacing For Different Screen Sizes */
+
+@media screen and (max-width: 576px) {
+   .container-margin-bottom {
+      margin-bottom: 50px;
+   }
+
+}
+
+/* @media screen and (min-width: 992px) {
+   .container {
+      max-width: 960px;
+   }
+}
+
+@media screen and (min-width: 768px) {
+   .container {
+      max-width: 720px;
+   }
+}
+
+@media screen and (min-width: 576px) {
+
+   .container {
+      max-width: 540px;
+   }
+} */
