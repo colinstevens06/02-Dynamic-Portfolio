@@ -2,6 +2,22 @@
    margin-left: auto;
 }
 
+.container {
+
+}
+
 .navbar-brand {
    margin-right: auto;
+}
+
+.headshot {
+   width: 200px;
+   margin-right: 15px;
+   margin-bottom: 15px;
+   border: #222222;
+   padding: 2px;
+}
+
+.card-title {
+   color: white;
 }
