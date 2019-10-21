@@ -170,6 +170,15 @@ footer {
       margin-bottom: 50px;
    }
 
+   .navbar-brand {
+      margin: 0;
+      margin-left: -25px;
+   }
+
+   .nav {
+      margin: 10px 0;
+   }
+
 }
 
 /* @media screen and (min-width: 992px) {
