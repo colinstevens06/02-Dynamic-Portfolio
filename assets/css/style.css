@@ -15,13 +15,13 @@ body {
    padding: 14px 16px;
 }
 
-   .container-below {
+   /* .container-below {
       padding-bottom: 0;
-   }
+   } */
 
-   .container-portfolio {
+   /* .container-portfolio {
       margin-bottom: 75px;
-   }
+   } */
 
    .container-border {
       border: 1px solid #dddddd;
