@@ -15,6 +15,10 @@ body {
    padding: 14px 16px;
 }
 
+.main-content {
+   padding: 14px 16px;
+}
+
    /* .container-below {
       padding-bottom: 0;
    } */
@@ -178,37 +182,44 @@ footer {
 
 /* Spacing For Different Screen Sizes */
 
-@media screen and (max-width: 576px) {
-   .container-margin-bottom {
-      margin-bottom: 50px;
-   }
 
-   .navbar-brand {
-      margin: 0;
-      margin-left: -25px;
-   }
 
-   .nav {
-      margin: 10px 0;
-   }
-
-}
-
-/* @media screen and (min-width: 992px) {
+@media screen and (max-width: 992px) {
    .container {
       max-width: 960px;
    }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
    .container {
       max-width: 720px;
    }
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 576px) {
 
    .container {
       max-width: 540px;
    }
-} */
+
+   .navbar-brand {
+      background: #4aaaa5;
+      width: 100%;
+      text-align: center;
+   }
+   .col-sm-6 {
+      padding: 0;
+   }
+
+   .container-margin-bottom {
+      margin-bottom: 50px;
+   }
+
+   .nav {
+      margin: 10px auto;
+   }
+
+   .headshot {
+      width: 100%;
+   }
+}
